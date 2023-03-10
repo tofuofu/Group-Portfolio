@@ -5,8 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;1,300;1,400&family=Shantell+Sans:ital,wght@0,300;0,400;0,500;1,300;1,400&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Jost&display=swap" rel="stylesheet">
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="./main.css">
     <script
@@ -17,55 +20,55 @@
   </head>
   <body class="w-full">
     <div class="w-full items-center justify-center text-center">
-      <h1 class="text-5xl">Team Name</h1>
+      <h1 class="text-5xl fredoka-font">Blue Team</h1>
       <div class="container">
       <div class="w-full p-6 relative">
-        <section id="erik" class="container bg-red-500 rounded-md p-2 relative drop-shadow-lg">
+        <section id="erik" class="container bg-indigo-300 rounded-md p-2 relative drop-shadow-lg">
           <div class="gap-6">
-            <h1 class="text-3xl text-left ff">Erik Salazar</h1>
+            <h1 class="text-3xl text-left fredoka-font">Adrienne Saporsantos</h1>
             <ul class="flex gap-2">
-                <li class="p-2"><a href="">Github</a></li>
-                <li class="p-2"><a href="">Behance</a></li>
-                <li class="p-2"><a href="">Link3</a></li>
+                <li class="p-2 fredoka-font"><a href="https://github.com/tofuofu">Github</a></li>
+                <li class="p-2 fredoka-font"><a href="https://www.behance.net/adriennsaporsa">Behance</a></li>
+                <li class="p-2 fredoka-font"><a href="https://link3.to/">Link3</a></li>
               </ul>
             <ul class="flex">
-                <li class="p-2"><button class="rounded-full bg-blue-400 px-3 text-left">Programmer</button></li>
+                <li class="p-2"><button class="rounded-full bg-indigo-100 px-3 fredoka-font">Programmer</button></li>
             </ul>
             
 
           <img
             class="absolute top-0 right-0 md:hidden rounded-tr-md shadow-lg"
-            src="https://via.placeholder.com/100"
+            src="data:image/png;base64,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"
           />
           <ul
             class="w-[310px] md:w-full flex overflow-x-scroll snap-x p-2 gap-2"
           >
-            <li class="min-w-[310px] snap-center bg-white p-4 rounded-md">
+            <li class="min-w-[310px] snap-center bg-indigo-100 p-4 rounded-md">
               <a href=""
                 ><img
                   class="rounded-md"
-                  src="https://via.placeholder.com/300x200"
+                  src="https://i.pinimg.com/originals/e7/99/98/e799984da33df5d3b3435b6505a9fd9f.jpg"
               /></a>
-              <h4 class="text-center">Project 1</h4>
+              <h4 class="fredoka-font">Project 1</h4>
             </li>
-            <li class="min-w-[300px] snap-center bg-white p-4 rounded-md">
+            <li class="min-w-[300px] snap-center bg-indigo-100 p-4 rounded-md">
               <a href=""
                 ><img
                   class="rounded-md"
-                  src="https://via.placeholder.com/300x200"
+                  src="https://i.pinimg.com/originals/f1/bf/d6/f1bfd633f6bd9be5b16f975369e55f22.jpg"
               /></a>
-              <h4 class="text-center">Project 2</h4>
+              <h4 class="fredoka-font">Project 2</h4>
             </li>
-            <li class="min-w-[300px] snap-center bg-white p-4 rounded-md">
+            <li class="min-w-[300px] snap-center bg-indigo-100 p-4 rounded-md">
               <a href=""
                 ><img
                   class="rounded-md"
-                  src="https://via.placeholder.com/300x200"
+                  src="https://i.pinimg.com/originals/f4/63/a1/f463a10851dfcefc6c7d8545657ecb87.jpg"
               /></a>
-              <h4 class="text-center">Project 3</h4>
+              <h4 class="fredoka-font">Project 3</h4>
             </li>
           </ul>
-          <div class="bg-white max-w-xl mx-auto border border-gray-200 rounded-b-lg">
+          <div class="bg-white max-w-xl mx-auto border border-indigo-100 rounded-b-lg">
             <ul class="shadow-box">
               <li
                 class="relative border-b border-gray-200 rounded-b-lg"
@@ -77,7 +80,7 @@
                   @click="selected !== 1 ? selected = 1 : selected = null"
                 >
                   <div class="flex items-center justify-center">
-                    <span class="text-center">View More</span>
+                    <span class="fredoka-font">View More</span>
                     <span class="ico-plus"></span>
                   </div>
                 </button>
@@ -90,9 +93,10 @@
                   <div class="p-6">
                     <p>
                         <!-- Code Below -->
-                        What Ideas Can You Think Of?
+                        
                         <!-- Code Above -->
                     </p>
+                    <img src="https://i.pinimg.com/564x/80/e2/21/80e221543ae9661162774db7a52784ad.jpg">
                   </div>
                 </div>
               </li>
